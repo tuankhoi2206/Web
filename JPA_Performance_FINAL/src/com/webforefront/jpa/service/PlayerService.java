@@ -1,0 +1,15 @@
+package com.webforefront.jpa.service;
+
+import java.util.List;
+import com.webforefront.jpa.domain.Player;
+
+public interface PlayerService {
+
+    public List<Player> findAll();
+
+    public List<Player> findPlayerByFirstName(String lastName);
+
+    public List<Player> findPlayerByLastName(String lastName);
+
+    public Player findPlayerById(long id);
+}

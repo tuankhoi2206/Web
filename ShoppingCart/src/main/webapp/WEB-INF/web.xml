@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+
+	<display-name>Shopping MVC</display-name>
+	<servlet>
+		<servlet-name>ControllerServletMyECart</servlet-name>
+		<servlet-class>ControllerServletMyECart</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ControllerServletMyECart</servlet-name>
+		<url-pattern>/ControllerServletMyECart</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ControllerServletMyEShop</servlet-name>
+		<servlet-class>ControllerServletMyEShop</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ControllerServletMyEShop</servlet-name>
+		<url-pattern>/ControllerServletMyEShop</url-pattern>
+	</servlet-mapping>
+
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+	<welcome-file-list>
+		<welcome-file>MyEShop.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
+

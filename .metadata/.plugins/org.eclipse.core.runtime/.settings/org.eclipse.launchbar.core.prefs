@@ -1,0 +1,4 @@
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Start JBoss 6,org.eclipse.launchbar.core.descriptorType.default\:Start JBoss 7,org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:/ticket-monster,org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:ticket-monster
+eclipse.preferences.version=1
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:MusicManage/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.wst.server\:Red Hat JBoss EAP 7.x
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:ticket-monster/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.wst.server\:JBoss AS 7.1

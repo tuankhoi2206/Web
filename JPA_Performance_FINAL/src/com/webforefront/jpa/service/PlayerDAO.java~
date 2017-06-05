@@ -1,0 +1,29 @@
+package com.webforefront.jpa.service;
+
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
+import com.webforefront.jpa.domain.Player;
+
+import org.springframework.orm.jpa.support.JpaDaoSupport;
+
+public class PlayerDAO extends JpaDaoSupport implements PlayerService {
+
+    public List<Player> findAll() {
+        return getJpaTemplate().find("select e from Player e");
+    }
+
+    public List<Player> findPlayerByFirstName(String firstName) {
+        return getJpaTemplate().find("select e from Player e where e.firstName = ?1", firstName);
+    }
+
+    public List<Player> findPlayerByLastName(String lastName) {
+        return getJpaTemplate().find("select e from Player e where e.lastName = ?1", lastName);
+    }
+
+    public Player findById(long id) {
+        return getJpaTemplate().find(Player.class, id);
+    }
+
+}

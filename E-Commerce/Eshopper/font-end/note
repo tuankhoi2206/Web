@@ -1,0 +1,5 @@
+
+Menu
+ + xây dựng menu nếu không sử dụng absolute
+  kích thước của main li sẽ bị co dãn khi
+   sub-menu display is block.

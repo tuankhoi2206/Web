@@ -1,0 +1,9 @@
+D:\Git\WebWorkspace\SpringBoot\SpringBootCRUDApplicationExample\src\main\java\com\websystique\springboot\repositories\UserRepository.java
+D:\Git\WebWorkspace\SpringBoot\SpringBootCRUDApplicationExample\src\main\java\com\websystique\springboot\model\User.java
+D:\Git\WebWorkspace\SpringBoot\SpringBootCRUDApplicationExample\src\main\java\com\websystique\springboot\configuration\JpaConfiguration.java
+D:\Git\WebWorkspace\SpringBoot\SpringBootCRUDApplicationExample\src\main\java\com\websystique\springboot\SpringBootCRUDApp.java
+D:\Git\WebWorkspace\SpringBoot\SpringBootCRUDApplicationExample\src\main\java\com\websystique\springboot\util\CustomErrorType.java
+D:\Git\WebWorkspace\SpringBoot\SpringBootCRUDApplicationExample\src\main\java\com\websystique\springboot\controller\RestApiController.java
+D:\Git\WebWorkspace\SpringBoot\SpringBootCRUDApplicationExample\src\main\java\com\websystique\springboot\controller\AppController.java
+D:\Git\WebWorkspace\SpringBoot\SpringBootCRUDApplicationExample\src\main\java\com\websystique\springboot\service\UserServiceImpl.java
+D:\Git\WebWorkspace\SpringBoot\SpringBootCRUDApplicationExample\src\main\java\com\websystique\springboot\service\UserService.java

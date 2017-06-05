@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--
+    Bootstrap is mobile first. Mobile first styles can be found throughout the entire
+    library instead of in separate files. To ensure proper rendering and touch zooming,
+    add the viewport meta tag to your <head>.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Title</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <!--<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="../css-eshopper/main.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+<header id="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <!--Small devices Tablets (≥768px)-->
+                <div class="col-sm-6">
+                    <div class="contact-info">
+                        <ul class="nav nav-pills">
+                            <li><a href="#"><i class="fa fa-phone"></i> +0933273346</a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i> tuankhoi2206@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="social-icons pull-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end header-top -->
+    <div class="header-middle">
+        <div class="container container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="header-logo">
+                        <img src="../images/home/logo.png">
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="header-menu pull-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i> Accout</a></li>
+                            <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i> Wishlist</a></li>
+                            <li><a href="#"><i class="fa fa-crosshairs" aria-hidden="true"></i> Checkout</a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</a></li>
+                            <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- header-middle -->
+    <div class="header-bottom"><!--header-bottom-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <!-- Response nav-Bar -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="main-menu pull-left">
+                        <ul class="nav navbar-nav collapse navbar-collapse">
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li class="dropdown"><a href="#">Shop <i class="fa fa-angle-down"></i></a>
+                                <ul role="menu" class="sub-menu">
+                                    <li><a href="shop.html">Products</a></li>
+                                    <li><a href="product-details.html">Product Details</a></li>
+                                    <li><a href="checkout.html">Checkout</a></li>
+                                    <li><a href="cart.html">Cart</a></li>
+                                    <li><a href="login.html">Login</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Blog <i class="fa fa-angle-down"></i></a>
+                                <ul role="menu" class="sub-menu">
+                                    <li><a href="blog.html">Blog List</a></li>
+                                    <li><a href="blog-single.html">Blog Single</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="404.html">404</a></li>
+                            <li><a href="contact-us.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="search_box pull-right">
+                        <input type="text" placeholder="Search"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/header-bottom-->
+</header>
+<!--<section id="slider">&lt;!&ndash;slider&ndash;&gt;-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="col-sm-12">-->
+<!--<div id="slider-carousel" class="carousel slide" data-ride="carousel">-->
+<!--<ol class="carousel-indicators">-->
+<!--<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>-->
+<!--<li data-target="#slider-carousel" data-slide-to="1"></li>-->
+<!--<li data-target="#slider-carousel" data-slide-to="2"></li>-->
+<!--</ol>-->
+
+<!--<div class="carousel-inner">-->
+<!--<div class="item active">-->
+<!--<div class="col-sm-6">-->
+<!--<h1><span>E</span>-SHOPPER</h1>-->
+<!--<h2>Free E-Commerce Template</h2>-->
+<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor-->
+<!--incididunt ut labore et dolore magna aliqua. </p>-->
+<!--<button type="button" class="btn btn-default get">Get it now</button>-->
+<!--</div>-->
+<!--<div class="col-sm-6">-->
+<!--<img src="images/home/girl1.jpg" class="girl img-responsive" alt=""/>-->
+<!--<img src="images/home/pricing.png" class="pricing" alt=""/>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<div class="col-sm-6">-->
+<!--<h1><span>E</span>-SHOPPER</h1>-->
+<!--<h2>100% Responsive Design</h2>-->
+<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor-->
+<!--incididunt ut labore et dolore magna aliqua. </p>-->
+<!--<button type="button" class="btn btn-default get">Get it now</button>-->
+<!--</div>-->
+<!--<div class="col-sm-6">-->
+<!--<img src="images/home/girl2.jpg" class="girl img-responsive" alt=""/>-->
+<!--<img src="images/home/pricing.png" class="pricing" alt=""/>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--<div class="item">-->
+<!--<div class="col-sm-6">-->
+<!--<h1><span>E</span>-SHOPPER</h1>-->
+<!--<h2>Free Ecommerce Template</h2>-->
+<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor-->
+<!--incididunt ut labore et dolore magna aliqua. </p>-->
+<!--<button type="button" class="btn btn-default get">Get it now</button>-->
+<!--</div>-->
+<!--<div class="col-sm-6">-->
+<!--<img src="images/home/girl3.jpg" class="girl img-responsive" alt=""/>-->
+<!--<img src="images/home/pricing.png" class="pricing" alt=""/>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--</div>-->
+
+<!--<a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">-->
+<!--<i class="fa fa-angle-left"></i>-->
+<!--</a>-->
+<!--<a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">-->
+<!--<i class="fa fa-angle-right"></i>-->
+<!--</a>-->
+<!--</div>-->
+
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</section>&lt;!&ndash;/slider&ndash;&gt;-->
+<section>
+    <div class="container">
+        <div class="row">
+            <!-- BRAND LEFT -->
+            <div class="col-xs-3 col-sm-3">
+                <div class="left-sidebar">
+                    <h2>Category</h2>
+                    <div class="brands_products">
+                        <div class="panel-group category-products">
+                            <!-- sportswear -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <!-- #sportswear -->
+                                        <a data-toggle="collapse" href="#sportswear">SPORTSWEAR
+                                            <span class="pull-right"><i
+                                                    class="fa fa-plus"
+                                                    aria-hidden="true"></i>
+                                            </span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <!-- #sportswear -->
+                                <div id="sportswear" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li><a href="#">Nike </a></li>
+                                            <li><a href="#">Under Armour </a></li>
+                                            <li><a href="#">Adidas </a></li>
+                                            <li><a href="#">Puma</a></li>
+                                            <li><a href="#">ASICS </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- mens -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#mens">MENS
+                                            <span class="pull-right"><i
+                                                    class="fa fa-plus"
+                                                    aria-hidden="true"></i>
+                                            </span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="mens" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li><a href="">FENDI</a></li>
+                                            <li><a href="">GUESS</a></li>
+                                            <li>VALENTINO</li>
+                                            <li>DIOR</li>
+                                            <li>VERSACE</li>
+                                            <li>ARMANI</li>
+                                            <li>PRADA</li>
+                                            <li>DOLCE AND GABBANA</li>
+                                            <li>CHANEL</li>
+                                            <li>GUCCI</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- womens -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#womens">WOMENS
+                                            <span class="pull-right"><i class="fa fa-plus"
+                                                                        aria-hidden="true"></i></span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="womens" class="panel-collapse collapse">
+                                    <ul>
+                                        <li>FENDI</li>
+                                        <li>GUESS</li>
+                                        <li>VALENTINO</li>
+                                        <li>DIOR</li>
+                                        <li>VERSACE</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- kids -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#kids">KIDS
+                                            <span class="pull-right"><i class="fa fa-plus"
+                                                                        aria-hidden="true"></i></span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <!--<div id="kids" class="panel-collapse collapse">-->
+                                <!--<ul>-->
+                                <!--<li>FENDI</li>-->
+                                <!--<li>GUESS</li>-->
+                                <!--<li>VALENTINO</li>-->
+                                <!--<li>DIOR</li>-->
+                                <!--<li>VERSACE</li>-->
+                                <!--</ul>-->
+                                <!--</div>-->
+                            </div>
+                            <!-- fashion -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#fashion">fashion
+                                            <span class="pull-right"><i class="fa fa-plus"
+                                                                        aria-hidden="true"></i></span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <!--<div id="kids" class="panel-collapse collapse">-->
+                                <!--<ul>-->
+                                <!--<li>FENDI</li>-->
+                                <!--<li>GUESS</li>-->
+                                <!--<li>VALENTINO</li>-->
+                                <!--<li>DIOR</li>-->
+                                <!--<li>VERSACE</li>-->
+                                <!--</ul>-->
+                                <!--</div>-->
+                            </div>
+                            <!-- households -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#households">HOUSEHOLDS
+                                            <span class="pull-right"><i class="fa fa-plus"
+                                                                        aria-hidden="true"></i></span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <!--<div id="kids" class="panel-collapse collapse">-->
+                                <!--<ul>-->
+                                <!--<li>FENDI</li>-->
+                                <!--<li>GUESS</li>-->
+                                <!--<li>VALENTINO</li>-->
+                                <!--<li>DIOR</li>-->
+                                <!--<li>VERSACE</li>-->
+                                <!--</ul>-->
+                                <!--</div>-->
+                            </div>
+                            <!-- INTERIORS -->
+                            <div class="panel panel-default">
+                                <!--CLOTHING-->
+                                <div class="panel panel-default">
+                                    <!-- BAGS -->
+                                    <div class="panel panel-default">
+                                        <!-- shoes -->
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" href="#shoes">SHOES
+                                                        <span class="pull-right"><i class="fa fa-plus"
+                                                                                    aria-hidden="true"></i></span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <!--<div id="kids" class="panel-collapse collapse">-->
+                                            <!--<ul>-->
+                                            <!--<li>FENDI</li>-->
+                                            <!--<li>GUESS</li>-->
+                                            <!--<li>VALENTINO</li>-->
+                                            <!--<li>DIOR</li>-->
+                                            <!--<li>VERSACE</li>-->
+                                            <!--</ul>-->
+                                            <!--</div>-->
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/left-sidebar-->
+                        </div>
+                    </div>
+                    <h2>Brands</h2>
+                    <div class="brands_products">
+                        <div class="panel-group category-products">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FEATURES ITEMS -->
+            <div class="col-xs-9 col-sm-9">
+                <div class="brands_products">
+                    <h2>FEATURES ITEMS</h2>
+                    <div class="col-sm-4">
+                        <div style="border: 1px solid #f0f0e9;text-align: center">
+                            <img src="../images/home/product1.jpg" style="width: 100%">
+                            <h3>$56</h3>
+                            <h4>Easy Polo Black Edition</h4>
+                            <button type="button" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add
+                                to cart
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div style="border: 1px solid #f0f0e9;text-align: center">
+                            <img src="../images/home/product1.jpg" style="width: 100%">
+                            <h3>$56</h3>
+                            <h4>Easy Polo Black Edition</h4>
+                            <button type="button" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add
+                                to cart
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div style="border: 1px solid #f0f0e9;text-align: center">
+                            <img src="../images/home/product1.jpg" style="width: 100%">
+                            <h3>$56</h3>
+                            <h4>Easy Polo Black Edition</h4>
+                            <button type="button" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add
+                                to cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!--/.FEATURES ITEMS -->
+    </div><!--/row-->
+    </div>
+</section>
+<footer>
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="companyinfo">
+                        E-SHOPPER
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p>
+                    </div>
+                </div>
+                <div class="col-sm-7">
+                    <div class="col-sm-3">
+                        <div class="video-gallery">
+                            <a href="#">
+                                <img src="../images/home/iframe1.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="video-gallery">
+                            <a href="#">
+                                <img src="../images/home/iframe2.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="video-gallery">
+                            <a href="#">
+                                <img src="../images/home/iframe3.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="video-gallery">
+                            <a href="#">
+                                <img src="../images/home/iframe4.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <img src="../images/home/map.png">
+                </div>
+            </div>
+        </div>
+        <span>footer-top</span>
+    </div>
+    <div class="footer-middle">
+        <span>footer-top</span>
+    </div>
+    <div class="footer-bottom">
+        <!-- không move container container-fluid ra ngoài
+            vì lỗi mất height khi set float pull-left
+         -->
+        <div class="container container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <span class="pull-left">Copyright © 2013 E-SHOPPER Inc. All rights reserved.</span>
+                </div>
+                <div class="col-md-4">
+                    <span class="pull-right">Designed by Themeum</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

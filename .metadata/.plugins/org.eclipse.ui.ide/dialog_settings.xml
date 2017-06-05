@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\Git\WebWorkspace\SpringBoot\SpringBootCRUDApplicationExample"/>
+			<item value="D:\Git\WebWorkspace\SpringBoot"/>
+			<item value="D:\Git\WebWorkspace\SpringMVCShoppingCart"/>
+			<item value="D:\Git\WebWorkspace\atmosphere\springMVC-atmosphere-comet-websockets-master"/>
+			<item value="D:\Git\WebWorkspace\spring-atmosphere-chat-example-master"/>
+			<item value="D:\Git\WebWorkspace\spring-atmosphere-samples-master\spring-integration-atmosphere-sample"/>
+			<item value="D:\Git\WebWorkspace\spring-atmosphere-samples-master\spring-mvc-atmosphere-sample"/>
+			<item value="D:\Git\WebWorkspace\SpringMVCSecurityAtmosphere"/>
+			<item value="D:\Git\WebWorkspace"/>
+			<item value="D:\Git\WebWorkspace\vn.tuankhoi.springmvc"/>
+			<item value="D:\Git\WebWorkspace\SpringMVCHibernateDemo"/>
+			<item value="D:\Git\WebWorkspace\SpringValidationLogin"/>
+			<item value="D:\Git\WebWorkspace\HibernateManyToMany"/>
+			<item value="D:\Git\WebWorkspace\ShoppingCart"/>
+			<item value="D:\Git\WebWorkspace\DesignPattern"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.springsource.ide.eclipse.commons.quicksearch.ui.QuickSearchDialog.DIALOG_SETTINGS">
+		<item value="true" key="CASE_SENSITIVE"/>
+		<item value="" key="LAST_QUERY"/>
+		<list key="SASH_WEIGHTS">
+			<item value="833"/>
+			<item value="166"/>
+		</list>
+		<list key="COLUMN_WIDTHS">
+			<item value="40"/>
+			<item value="400"/>
+			<item value="118"/>
+		</list>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="391" key="DIALOG_X_ORIGIN"/>
+			<item value="39" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+</section>

@@ -1,0 +1,14 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence 
+	     http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0">
+    <persistence-unit name="jpaPerformance" transaction-type="RESOURCE_LOCAL">
+        <class>com.webforefront.jpa.domain.Player</class>
+        <properties>
+	  <property name="eclipselink.profiler" value="PerformanceProfiler"/>
+          <property name="eclipselink.logging.level" value="FINE"/>
+        </properties>
+    </persistence-unit>
+
+</persistence>
