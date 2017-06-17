@@ -1,0 +1,52 @@
+package com.javacodegeeks.examples.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.javacodegeeks.examples.model.Song;
+import com.javacodegeeks.examples.repositories.SongRepository;
+
+@Service("songService")
+@Transactional
+public class SongServiceImpl implements SongService{
+
+	@Autowired
+	private SongRepository userRepository;
+
+	public Song findById(String id) {
+		return userRepository.findOne(id);
+	}
+
+	public Song findByName(String name) {
+		return userRepository.findByName(name);
+	}
+
+	@Override
+	public void saveSong(Song user) {
+		userRepository.save(user);
+	}
+
+	public void updateUser(Song user){
+		saveUser(user);
+	}
+
+	public void deleteSongById(String id){
+		userRepository.delete(id);
+	}
+
+	public void deleteAllUsers(){
+		userRepository.deleteAll();
+	}
+
+	public List<Song> findAllUsers(){
+		return userRepository.findAll();
+	}
+
+	public boolean isSongExist(Song user) {
+		return findByName(user.getTitle()) != null;
+	}
+
+}

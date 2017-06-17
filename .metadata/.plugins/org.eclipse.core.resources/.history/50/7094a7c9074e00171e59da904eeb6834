@@ -1,0 +1,8 @@
+package com.javacodegeeks.examples.repositories;
+
+@Repository
+public interface SongRepository extends JpaRepository<Song, String> {
+
+	Song findByName(String name);
+
+}

@@ -1,0 +1,26 @@
+package com.javacodegeeks.examples.services;
+
+import java.util.List;
+
+import com.javacodegeeks.examples.model.Song;
+
+public interface SongService {
+
+	Song findById(String id);
+
+	Song findByName(String name);
+
+	void saveSong(Song song);
+
+	void updateSong(Song song);
+
+	void deleteSongById(String id);
+
+	void deleteAllSong();
+
+	List<Song> findAllSong();
+
+	boolean isSongExist(Song song);
+
+	List<Song> findAllSong();
+}

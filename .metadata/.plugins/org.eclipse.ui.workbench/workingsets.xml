@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
+<workingSet editPageId="org.springframework.ide.eclipse.ui.springWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1497198396916_1" label="SpringMVC" name="SpringMVC"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1494337574732_0" label="Window Working Set" name="Aggregate for window 1494337574731"/>
+<mruList name="SpringMVC"/>
 </workingSetManager>

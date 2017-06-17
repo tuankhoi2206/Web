@@ -1,0 +1,9 @@
+package com.javacodegeeks.examples.repositories;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface SongRepository extends JpaRepository<Song, String> {
+
+	Song findByName(String name);
+}
